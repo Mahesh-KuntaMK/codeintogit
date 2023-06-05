@@ -32,7 +32,7 @@ items[2].style.backgroundColor='green';
 //Make all the elements in the list have bold color font
 for(let i=0;i<items.length;i++){
     items[i].style.fontWeight='bold';
-}*/
+}
 
 // editing it with getelementsbyclassname and then by getelementbytagname
 //gateelenetsbyclassname doesnt have access to item 5 due to diiference in class name
@@ -50,8 +50,38 @@ li[2].style.backgroundColor='green';
 //Make all the elements in the list have bold color font
 for(let i=0;i<li.length;i++){
     li[i].style.fontWeight='bold';
-}
+}*/
 //done with changes using getselementsby tag name;
 
+
+//Queryselector//
+//Deliverable
+
+
+
+//1.Make the 2nd item have green background color
+//2.Make the 3rd item invisible
+
+
+//var  header=document.querySelector('.main-header');
+//console.log(header);
+//var item=document.querySelector('.list-group-item:nth-child(2)');
+//item.style.backgroundColor='green';
+//var thirdItem=document.querySelector('.list-group-item:nth-child(3)');
+//thirdItem.style.visibility='hidden';
+
+//QuerySelectorAALL//
+//1.Using QuerySelectorALL change the font color to green for 2nd item in the item list
+//2.Choose all the odd elements and make their background green using QuerySelectorALL
+  
+var  items=document.querySelectorAll('li');
+console.log(items);
+items[1].style.color='green';
+var odd=document.querySelectorAll('li:nth-child(odd');
+for(var i=0;i<odd.length;i++){
+
+    odd[i].style.backgroundColor='green';
+}
+//done the changes successfully using quartSelectorAll
 
 
