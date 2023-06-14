@@ -68,10 +68,10 @@ edit.appendChild(document.createTextNode('Edit'));
 //add to edit btn to li
 
 li.appendChild(edit);
-
+// added child element to parent elemnt listitem
 itemlist.appendChild(li);
 
-
+// i added edit btn as per intractions
 }
 
 
