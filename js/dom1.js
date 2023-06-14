@@ -195,9 +195,11 @@ ul.insertBefore(newText,li);
 
 //successfully complted dom methods using methods of querySElector;
 
+var a=document.querySelector('#item');
+console.log(a.parentElement);
+console.log(a.parentNode);
 
 
-
-
+ 
 
 
